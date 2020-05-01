@@ -11,8 +11,7 @@ void main() => runApp(
           ),
           body: Center(
             child: Image(
-              image: NetworkImage(
-                  'https://i.vimeocdn.com/portrait/5134123_300x300'),
+              image: AssetImage('images/diamond1.png'),
             ),
           ),
         ),
